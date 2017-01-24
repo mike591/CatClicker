@@ -32,12 +32,16 @@ html {
   margin: 5%;
 }
 
-#hungerProgress {
+#health {
+
+}
+
+#hunger {
     width: 90%;
     height: 30px;
     background-color: grey;
 }
-#hungerProgressBar {
+#hungerBar {
     width: 50%;
     height: 100%;
     background-color: green;
@@ -65,10 +69,28 @@ html {
     background-color: green;
 }
 
+#hungerPercentage {
+
+}
+
+#cleanlinessPercentage {
+
+}
+
+#happinessPercentage {
+
+}
+
 /*Display*/
-.canvas {
+.canvas-container {
   width: 50%;
   border: 1px solid blue;
+  padding: 20px;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
 }
 
 /*Store*/

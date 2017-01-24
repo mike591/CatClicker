@@ -10,24 +10,43 @@
       <h1>Cat Clicker!</h1>
       <div class="top">
         <div class="status-bar">
-          
-          <div id="hungerProgress">
-            <div id="hungerProgressBar"></div>
-          </div>
+          <h1 id="health">Health: 100%</h1>
 
-          <div id="happiness">
-            <div id="happinessBar"></div>
+          <span>Hunger</span>
+          <div id="hunger">
+            <div id="hungerBar">
+              <div id="hungerPercentage">50%</div>
+            </div>
           </div>
+          <br/>
 
+          <span>Cleanliness</span>
           <div id="cleanliness">
-            <div id="cleanlinessBar"></div>
+            <div id="cleanlinessBar">
+              <div id="cleanlinessPercentage">50%</div>
+            </div>
           </div>
+          <br/>
+
+          <span>Happiness</span>
+          <div id="happiness">
+            <div id="happinessBar">
+              <div id="happinessPercentage">50%</div>
+            </div>
+          </div>
+          <br/><br/>
+
+          <span>Age</span>
+          <h1 id="catAge">Your cat survived for: </h1>
 
         </div>
 
-        <canvas class="canvas">
+        <div class="canvas-container">
+          <canvas id="canvas">
+            
+          </canvas>
+        </div>
 
-        </canvas>
 
         <div class="store-container">
           <span class='moneyLabel'></span>
