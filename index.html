@@ -3,8 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Cat Clicker!</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
+    <script type="text/javascript" src="lib/bundle.js"></script>
   </head>
-  <body>
+  <body class="game-container">
+      <h1>Cat Clicker!</h1>
+      <div class="top">
+        <div class="status-bar">
+          
+          <div id="hungerProgress">
+            <div id="hungerProgressBar"></div>
+          </div>
 
+          <div id="happiness">
+            <div id="happinessBar"></div>
+          </div>
+
+          <div id="cleanliness">
+            <div id="cleanlinessBar"></div>
+          </div>
+
+        </div>
+
+        <canvas class="canvas">
+
+        </canvas>
+
+        <div class="store-container">
+          <span class='moneyLabel'></span>
+          <div class='item-container'>
+            <button class='buyFood' type="button">Buy Food - $100</button>
+            <button class='buyBrush' type="button">Buy Brush - $150</button>
+            <button class='buyToy' type="button">Buy Toy - $200</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <button class='button-money' type="button">Make Money!</button>
+      </div>
   </body>
 </html>

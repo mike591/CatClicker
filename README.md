@@ -30,18 +30,19 @@ This project will be implemented with the following technologies:
 
 In addition to the webpack entry file, there will be these scripts involved in this project:
 
-`board.js`:
-`tile.js` :
-
+`catclicker.js`,
+`game.js`,
+`store.js`,
+`cat.js`
 ### Implementation Timeline
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file. Get the game state and button up. Make sure the money display is up.
+**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file. Get the game state and button up. Create the store (the right-most panel). Make sure the money display is up. Allow purchasing of items in the store.
 
-**Day 2**: Display a grid of tiles in the display container. Ensure that the tiles can have multiple states including cat, food, toy and brush. There should only be only one cat state in the display.
+**Day 2**: Set up the status bar (the left-most panel). Have needs degrade slowly. When any needs are below 0%, life percentage will degrade. Have a current score display.
 
-**Day 3**: Implement drag and drop to allow users to purchase and place items into the display grid.
+**Day 3**: Add cat to the display (the central panel). Have cat move around in the canvas. When buying items, have item fall into the display. Have cat 'interact' with item and update respective needs.
 
-**Day 4**: Have cat move to items one tile at a time to satisfy needs.
+**Day 4**: Clean and style project.
 
 
 ### Bonus features

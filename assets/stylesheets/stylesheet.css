@@ -1,0 +1,116 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+.game-container {
+  width: 100vh;
+  height: 90vh;
+  overflow: hidden;
+  border: 1px solid green;
+  text-align: center;
+}
+
+/*Top half*/
+.top {
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+/* Status */
+.status-bar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.status-bar > div {
+  margin: 5%;
+}
+
+#hungerProgress {
+    width: 90%;
+    height: 30px;
+    background-color: grey;
+}
+#hungerProgressBar {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+
+#happiness {
+    width: 90%;
+    height: 30px;
+    background-color: grey;
+}
+#happinessBar {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+
+#cleanliness {
+    width: 90%;
+    height: 30px;
+    background-color: grey;
+}
+#cleanlinessBar {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+
+/*Display*/
+.canvas {
+  width: 50%;
+  border: 1px solid blue;
+}
+
+/*Store*/
+.store-container {
+  width: 20%;
+  border: 1px solid blue;
+}
+
+.moneyLabel {
+
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buyFood {
+
+}
+
+.buyBrush {
+
+}
+
+.buyToy {
+
+}
+
+
+
+/*Bottom*/
+.bottom {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.button-money {
+  height: 50%;
+  width: 50%;
+}
