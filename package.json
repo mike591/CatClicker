@@ -1,0 +1,26 @@
+{
+  "name": "catclicker",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^1.14.0",
+    "babel-core": "^6.1.4",
+	  "babel-loader": "^6.1.0",
+	  "babel-preset-es2015": "^6.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike591/CatClicker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike591/CatClicker/issues"
+  },
+  "homepage": "https://github.com/mike591/CatClicker#readme"
+}
