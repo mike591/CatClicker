@@ -9,7 +9,7 @@ html {
   width: 100vh;
   height: 90vh;
   overflow: hidden;
-  border: 1px solid green;
+  border: 2px solid red;
   text-align: center;
 }
 
@@ -18,7 +18,8 @@ html {
   height: 70%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
 }
 
 .title {
@@ -124,10 +125,27 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .item-container > button {
   margin: 10px;
+  margin: 10px;
+  width: 130px;
+  height: 100px;
+  border-style: none;
+  font-family: 'VT323';
+  font-size: 30px;
+  text-align: center;
+}
+
+.item-container > button:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.item-container > button:active {
+  background-color: orangered;
 }
 
 .buyFood {
@@ -146,17 +164,26 @@ html {
 
 /*Bottom*/
 .bottom {
-  height: 20%;
-  /*display: flex;
+  height: 15%;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
-  border: 1px solid red;
+  align-items: center;
 }
 
 .button-money {
-  height: 30%;
-  width: 30%;
-  position: relative;
-  top: 0%;
-  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  transition: all .2s;
+  font-family: 'VT323';
+  font-size: 50px;
+}
+
+.button-money:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.button-money:active {
+  background-color: orangered;
 }
