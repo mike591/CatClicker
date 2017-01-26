@@ -1,54 +1,42 @@
-## CatClicker
+# CatCllicker
 
-### Background
+[CatClicker](https://mike591.github.io/CatClicker/) is a silly game where you take care of a virtual cat.
 
-The goal of this game is to keep your cat alive for as long as possible! You achieve this by clicking a button to make money and then using the money to buy necessities for your cat.
+## Features & Implementation
 
-### Functionality & MVP  
+### Click to make money
 
-In CatClicker, you will be able to:
+![Make Money](docs/screenshots/money.png)
 
-- [ ] Click to make money and be able to see your current amount + current score.
-- [ ] See your cat in the central container.
-- [ ] Purchase items and be able to place the item on the grid. The cat should move to the item.
-- [ ] Have a cat status container that displays the cat's health and needs.
-- [ ] A production Readme
+Players earn money by continuously clicking the make money button.
 
-### Wireframes
+### Game store
 
-The app will have one large board to house the game. Within that, there will be a cat status container, a display container and a store container. At the very top, is the game title and at the very bottom will be a button for making money.
+![Game Store](docs/screenshots/store.png)
 
-![wireframes](images/CatClicker.PNG)
+The game store keeps track of how money the player has and allows the player to purchase items for the cat.
 
-### Architecture and Technologies
+### Cat status
 
-This project will be implemented with the following technologies:
+![Bookings example](docs/screenshots/status.png)
 
-- Vanilla JavaScript for overall structure and game logic,
-- HTML5 Canvas for DOM manipulation and rendering,
-- Webpack to bundle and serve up the various scripts.
+The status bar displays your cat's health and current needs. The needs decrease as time passes.
 
-In addition to the webpack entry file, there will be these scripts involved in this project:
+### Display
 
-`catclicker.js`,
-`game.js`,
-`store.js`,
-`cat.js`
-### Implementation Timeline
+![Display](docs/screenshots/display.png)
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file. Get the game state and button up. Create the store (the right-most panel). Make sure the money display is up. Allow purchasing of items in the store.
-
-**Day 2**: Set up the status bar (the left-most panel). Have needs degrade slowly. When any needs are below 0%, life percentage will degrade. Have a current score display.
-
-**Day 3**: Add cat to the display (the central panel). Have cat move around in the canvas. When buying items, have item fall into the display. Have cat 'interact' with item and update respective needs.
-
-**Day 4**: Clean and style project.
+The game has a display that shows an animation of the cat. Buying items will show up in the display and will be used by the cat.
 
 
-### Bonus features
+## Future Directions for the Project
 
-If given the time, I would try to implement these features:
+Given more time, I would like to implement the following:
 
-- [ ] Penalties for overfeeding.
-- [ ] Being able to save and be able to keep track of high scores.
-- [ ] More animations.
+### More Animations
+
+The Cat will have a variety of animations instead of simply pacing back and forth.
+
+### More personalization
+
+Players can name the cat and there will be several texts that appears at random (ex: Mittens loves you!) to keep the player invested in the game.
