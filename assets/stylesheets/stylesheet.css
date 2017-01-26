@@ -9,8 +9,34 @@ html {
   width: 100vh;
   height: 90vh;
   overflow: hidden;
-  border: 2px solid red;
+  border: 5px solid red;
   text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.github {
+  background-image: url(../images/github.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  display: block;
+}
+
+.linkedin {
+  background-image: url(../images/linkedin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  display: block;
 }
 
 /*Top half*/
