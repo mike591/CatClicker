@@ -8,6 +8,7 @@ html {
 .game-container {
   width: 100vh;
   height: 90vh;
+  min-height: 800px;
   overflow: hidden;
   border: 5px solid red;
   text-align: center;
