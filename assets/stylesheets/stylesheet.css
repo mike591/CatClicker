@@ -147,6 +147,19 @@ html {
   padding: 20px;
 }
 
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+.moneyLabel-blink {
+  font-size: 30px;
+  padding: 20px;
+  color: red;
+  animation: blinker .2s;
+  animation-iteration-count: 5;
+}
+
+
 .item-container {
   display: flex;
   flex-direction: column;
