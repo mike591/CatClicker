@@ -1,4 +1,4 @@
-# CatCllicker
+# CatClicker
 
 [CatClicker](https://mike591.github.io/CatClicker/) is a silly game where you take care of a virtual cat.
 
