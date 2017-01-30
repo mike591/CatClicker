@@ -7,24 +7,28 @@
 ### Click to make money
 
 ![Make Money](docs/screenshots/money.png)
+![Money Code](docs/screenshots/money_code.png)
 
 Players earn money by continuously clicking the make money button.
 
 ### Game store
 
 ![Game Store](docs/screenshots/store.png)
+![Store Code](docs/screenshots/store_code.png)
 
 The game store keeps track of how money the player has and allows the player to purchase items for the cat.
 
 ### Cat status
 
-![Bookings example](docs/screenshots/status.png)
+![Cat Status](docs/screenshots/status.png)
+![Cat Code](docs/screenshots/cat_code.png)
 
 The status bar displays your cat's health and current needs. The needs decrease as time passes.
 
 ### Display
 
 ![Display](docs/screenshots/display.png)
+![Display Code](docs/screenshots/draw_code.png)
 
 The game has a display that shows an animation of the cat. Buying items will show up in the display and will be used by the cat.
 
