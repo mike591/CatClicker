@@ -8,7 +8,7 @@ html {
 .game-container {
   width: 100vh;
   height: 90vh;
-  min-height: 800px;
+  min-height: 700px;
   text-align: center;
 }
 
@@ -67,6 +67,10 @@ html {
 
 .status-bar > span {
   font-size: 25px;
+}
+
+#catAge {
+  margin: 0;
 }
 
 #health {
@@ -203,7 +207,7 @@ html {
 
 /*Bottom*/
 .bottom {
-  height: 15%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
