@@ -7,8 +7,8 @@ html {
 
 .game-container {
   width: 100vh;
-  height: 90vh;
-  min-height: 700px;
+  height: 680px;
+  min-height: 680px;
   text-align: center;
 }
 
@@ -16,6 +16,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 15%;
   padding-left: 20px;
   padding-right: 20px;
   border: 5px solid red;
