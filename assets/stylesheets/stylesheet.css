@@ -1,4 +1,5 @@
 html {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   font-family: 'VT323', monospace;
@@ -6,7 +7,6 @@ html {
 }
 
 .game-container {
-  overflow-x: hidden;
   width: 100vh;
   height: 680px;
   min-height: 680px;
